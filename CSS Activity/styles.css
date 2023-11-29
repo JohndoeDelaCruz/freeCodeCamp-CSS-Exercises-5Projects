@@ -1,0 +1,24 @@
+.box {
+    width: 200px;
+    height: 150px;
+    padding: 20px;
+    border: 2px solid black;
+    margin: 10px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+  }
+  
+  .item {
+    flex: 1; 
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; 
+    grid-gap: 10px; 
+  }
+  
