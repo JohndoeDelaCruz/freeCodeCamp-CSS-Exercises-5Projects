@@ -1,0 +1,113 @@
+.box1 {
+    background-color: #ff9999;
+    border: 2px solid #ff0000;
+    margin: 10px;
+    padding: 20px;
+  }
+
+  .box2 {
+    background-color: #99ff99;
+    border: 2px solid #00ff00;
+    margin: 10px;
+    padding: 15px;
+  }
+
+  .box3 {
+    background-color: #9999ff;
+    border: 2px solid #0000ff;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  /* Exercise 2: Centering Elements */
+  .center-container {
+    width: 300px;
+    height: 300px;
+    background-color: #cccccc;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Exercise 3: Floating Elements */
+  .float-box {
+    width: 100px;
+    height: 100px;
+    background-color: #ffcc00;
+    float: left;
+    margin: 10px;
+  }
+
+  /* Exercise 4: Responsive Design with Media Queries */
+  @media (max-width: 600px) {
+    /* Adjust styles for mobile devices */
+    body {
+      font-size: 14px;
+    }
+  }
+
+  /* Exercise 5: Flexbox Layout */
+  .flex-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+
+  .flex-item {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+  }
+
+  /* Exercise 6: Grid Layout */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+  .grid-item {
+    background-color: #66ccff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* Exercise 7: Complex Layout */
+  .complex-layout {
+    display: grid;
+    grid-template-areas:
+      "header header"
+      "sidebar content"
+      "footer footer";
+    grid-template-rows: 100px 1fr 50px;
+    grid-template-columns: 1fr 3fr;
+    height: 100vh;
+  }
+
+  /* Exercise 8: Card Layout */
+  .card {
+    width: 200px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+  }
+
+  /* Exercise 9: Nesting Elements */
+  .parent-box {
+    background-color: #e0e0e0;
+    padding: 20px;
+  }
+
+  .child-box {
+    background-color: #c0c0c0;
+    padding: 10px;
+    margin: 10px;
+  }
