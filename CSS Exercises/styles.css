@@ -19,7 +19,7 @@
     padding: 10px;
   }
 
-  /* Exercise 2: Centering Elements */
+  
   .center-container {
     width: 300px;
     height: 300px;
@@ -31,7 +31,7 @@
     align-items: center;
   }
 
-  /* Exercise 3: Floating Elements */
+  
   .float-box {
     width: 100px;
     height: 100px;
@@ -40,15 +40,14 @@
     margin: 10px;
   }
 
-  /* Exercise 4: Responsive Design with Media Queries */
   @media (max-width: 600px) {
-    /* Adjust styles for mobile devices */
+    
     body {
       font-size: 14px;
     }
   }
 
-  /* Exercise 5: Flexbox Layout */
+  
   .flex-container {
     display: flex;
     justify-content: space-around;
@@ -62,7 +61,7 @@
     text-align: center;
   }
 
-  /* Exercise 6: Grid Layout */
+  
   .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -75,7 +74,7 @@
     text-align: center;
   }
 
-  /* Exercise 7: Complex Layout */
+  
   .complex-layout {
     display: grid;
     grid-template-areas:
@@ -87,7 +86,7 @@
     height: 100vh;
   }
 
-  /* Exercise 8: Card Layout */
+  
   .card {
     width: 200px;
     border: 1px solid #ddd;
@@ -100,7 +99,7 @@
     transform: scale(1.05);
   }
 
-  /* Exercise 9: Nesting Elements */
+  
   .parent-box {
     background-color: #e0e0e0;
     padding: 20px;
